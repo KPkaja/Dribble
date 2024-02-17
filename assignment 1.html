@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-2H22IjX3txvXKjZYn5/Pll0m1DuswC4zQoKwtovHjU1PQ2sfR9sG9Wkh6++JvRvwJ5/y3R8WG6ZD/FN1ArvA6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
    <header>  
-     <div class="bg-yellow-50	  bg-opacity-25">
+     <nav class="bg-yellow-50	  bg-opacity-25">
        <ul class="flex text-right md:w-96 lg:w-128 xl:w-160   sm:w-96 sm:text-center ">
         <li class="flex-1 mr-2">
             <a href="dribbble" class="text-right font-serif	 text-5xl text-bold block whitespace-nowrap text-2xl py-1 mr-6  bg-white hover:bg-slate-50 text-brown font-sans md:font-serif">dribbble</a>
@@ -28,11 +28,20 @@
             <a href="#Go Pro" class="text-right block  font-sans hover:bg-slate-50 mr-6 whitespace-nowrap  py-5 text-2xl">Go Pro</a>
         </li>
         
+        <div class="flex-1 justify-between gap-4">
+          <input type="text" placeholder="Search..." class="p-2 border border-gray-300 rounded-full mt-4 ml-3 focus:outline-none">
+        </div>
         <li class="flex-1">
-            <a href="#Log in" class="text-right block  font-sans hover:bg-slate-50 whitespace-nowrap  py-5 text-2xl">Log in</a>
-        </li>
+          <a href="#Log in" class="text-right block ml-6  font-sans hover:bg-slate-50 whitespace-nowrap  py-5 text-2xl">Log in</a>
+      </li>
+      <li class="flex-1">
+      <div class="bg-black ml-3	 mt-4 p-2 rounded-full shadow-md">
+        <p class="text-center text-lg font-semibold text-white whitespace-nowrap ">Sign in</p>
+      </div>
+    </li >
         </ul>
-     </div>
+       
+      </nav>
      </header>  
   <body >
       <div>
@@ -54,14 +63,13 @@
       </div>
       <div class="bg-white	"> 
          <div class= flex>
-          <div class="w-1/4 border border-gray-300 ml-2 mr-2 p-4"><div class="bg-cover bg-center bg-no-repeat h-32" style="background-image: url('C:\Users\J.Kajalapriya\Downloads\Dribble\IMG-20240216-WA0033.jpg')"></div>
-          Box 1</div>
-          <div class="w-1/4 border border-gray-300 p-4 ml-2 mr-2">Box 2</div>
-          <div class="w-1/4 border border-gray-300 ml-2 mr-2 p-4">Box 3</div>
-          <div class="w-1/4 border border-gray-300 ml-2 mr-2 p-4">Box 4</div>
+          <div class="w-1/4 border border-gray-300 ml-2 mr-2 p-0 "><img src="C:\Users\J.Kajalapriya\Downloads\Dribble\IMG-20240216-WA0033.jpg "class="">Box 2</div>
+          <div class="w-1/4 border border-gray-300 p-0 ml-2 mr-2 "><img src="C:\Users\J.Kajalapriya\Downloads\Dribble\IMG-20240216-WA0034.jpg"class="">Box 2</div>
+          <div class="w-1/4 border border-gray-300 ml-2 mr-2 p-0"><img src="IMG-20240216-WA0032.jpg"class="">Box 3</div>
+          <div class="w-1/4 border border-gray-300 ml-2 mr-2 p-0 "><img src="IMG-20240216-WA0031.jpg"class="">Box 4</div>
       </div>
       </div>
-  
+      
       
   </body>
 </html>
