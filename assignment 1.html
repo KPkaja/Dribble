@@ -19,8 +19,13 @@
         <li class="flex-1 ">
             <a href="#Lead design" class="text-right font-sans block hidden md:hidden lg:block  hover:bg-slate-50 whitespace-nowrap mr-6  py-5 text-xl">Lead design</a>
         </li>
-        <li class="flex-1 ">
+        <li class=" ">
+          <div class="flex  ">
             <a href="#learn design" class="text-right block font-sans hidden md:hidden lg:block hover:bg-slate-50 mr-6  whitespace-nowrap  py-5 text-xl">Learn design</a>
+            <svg class="ml-1 mt-6 h-5 w-5 text-black" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+            </svg>
+          </div>
         </li>
         <li class="flex-1 ">
             <a href="#Jobs" class="text-right block hidden md:hidden lg:block  font-sans hover:bg-slate-50 mr-6 whitespace-nowrap  py-5 text-xl">Jobs</a>
@@ -67,10 +72,12 @@
 
       <div class="bg-white mt-10	"> 
          <div class= "flex flex-col sm:flex-row   mx-auto">
-          <div class="w-1/4 border border-gray-300 ml-2 	 mr-2 p-0 "><img src=" IMG-20240216-WA0033.jpg"class="h-37">
+          <div class="w-1/4 border border-gray-300 ml-2	 mr-2 p-0 "><img src=" IMG-20240216-WA0033.jpg"class="h-37">
             <p class="text-black font-bold ml-2 mr-2 text-center
             ">Zurich:renovation <br>works at check-in 1</p>
-            <p class="text-slate-500 text-justify ml-2 mr-2	">Baggage check for Economy and Premium Economy class temporarily relocated to check-in 3</p> 
+            <p class="text-slate-500 text-justify mb-3 ml-2 mr-2	">Baggage check for Economy and Premium Economy class temporarily relocated to check-in 3</p> 
+            <hr class="ml-5 mr-5">
+            <p class="ml-10 mr-5">More information</p>
           </div>
           <div class="w-1/4 border border-gray-300 p-0 ml-2 mr-2 "><img src="IMG-20240216-WA0034.jpg"class="h-37">
             <P  class="text-black font-bold ml-3 mr-3 text-center	">Stay connected</P>
@@ -92,30 +99,28 @@
         </button>
       </div>
       <section class="mt-5 ">
-        <div class="max-w-md mx-auto bg-white   p-8 rounded  shadow-md">
+        <section class=" bg-neutral-100 ">
+        <div class="max-w-md mx-auto bg-neutral-100    p-8 rounded  ">
           <h2 class="text-2xl font-semibold text-center mb-6">Elegant contact foam</h2>
           <form class="grid grid-cols-1 grid-rows-4 md:grid-cols-2 gap-4 md:grid-rows-3 grid-flow-col">
-            <div class="mb-4">
-              <label for="name" class="block text-gray-700 text-sm font-medium mb-2"> Name</label>
-              <input type="text" id="name" name="name" class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-indigo-500">
+            <div class="mb-1">
+              <input type="text" id="name" name="name" placeholder=" Name..." class="w-full  shadow-md p-2 border  border-gray-300 rounded focus:outline-none ">
             </div>
-            <div class="mb-4">
-              <label for="email" class="block text-gray-700 text-sm font-medium mb-2">Email Address</label>
-              <input type="email" id="email" name="email" class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-indigo-500">
+            <div class="mb-1">
+              <input type="email" id="email" name="email" placeholder="Email Address..." class="w-full shadow-md   p-2 border border-gray-300 rounded focus:outline-none focus:border-indigo-500">
             </div>
-            <div class="mb-4 ">
-              <label for="subject" class="block text-gray-700 text-sm font-medium mb-2">Subject</label>
-              <input type="text" id="subject" name="subject"  class="w-full p-2 border border-gray-300 rounded resize-none focus:outline-none focus:border-indigo-500">
+            <div class="mb-1">
+              <input type="text" id="subject" name="subject" placeholder="Subject..."  class="w-full shadow-md  p-2 border border-gray-300 rounded resize-none focus:outline-none focus:border-indigo-500">
             </div>
-            <div class="mb-4 row-span-2">
-              <label for="message" class="block text-gray-700 text-sm font-medium mb-2">Message</label>
-              <textarea id="message" name="message" rows="4" class="w-full p-2 border border-gray-300 rounded resize-none focus:outline-none focus:border-indigo-500"></textarea>
+            <div class="mt-1 row-span-2">
+              <textarea id="message" name="message" rows="4" placeholder="Message..." class="w-full shadow-md p-2 border border-gray-300 rounded resize-none focus:outline-none focus:border-indigo-500"></textarea>
             </div>
 
           </form>
-          <button type="submit" class="bg-indigo-500 text-white w-96 mt-3 px-4 rounded  hover:bg-red-600	 bg-red-600	 focus:outline-none focus:shadow-outline-indigo">Submit</button>
+          <button type="submit" class="bg-indigo-500 text-white w-96 mt-3 px-4 rounded  hover:bg-red-600 shadow-md bg-red-600	 focus:outline-none focus:shadow-outline-indigo">Submit</button>
 
         </div>
+      </section>
         <div>
           <footer class="bg-black	md:grid-cols-2 text-white p-6">
             <div class="max-w-screen-xl  grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-6 gap-4">
@@ -203,6 +208,10 @@
                 </ul>
               </div>
             </div>
+            <hr>
+            <hr>
+            <a href="#English(United States)" class="text-left block font-sans hidden md:hidden lg:block   py-5 text-xl">English(United States)</a>
+
           </footer>
         </div>
       </section>
