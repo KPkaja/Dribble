@@ -6,9 +6,10 @@
   </head>
   <section class="bg-neutral-100 mb-3 ">
    <header>  
-    <nav class=" mx-auto">
+    <nav >
+      
      
-       <ul class="flex text-right md:w-96 lg:w-128 xl:w-160 font-semibold  sm:w-96 sm:text-center ">
+       <ul class="flex  flex-shrink text-right md:w-96 lg:w-128 xl:w-160 font-semibold  sm:w-96 sm:text-center ">
         <li class="flex-1 mr-2">
             <a href="dribbble" class="text-right font-serif 	 text-5xl text-bold block whitespace-nowrap text-2xl py-1 mr-6   hover:bg-slate-50 text-brown font-sans md:font-serif">Dribbble</a>
         </li>
@@ -34,8 +35,8 @@
             <a href="#Go Pro" class="text-right block hidden md:hidden lg:block hidden md:block  font-sans hover:bg-slate-50 mr-6 whitespace-nowrap  py-5 text-xl">Go Pro</a>
         </li>
         
-        <div class="relative sm:placeholder-hidden md:placeholder-hidden lg:placeholder-visible justify-between gap-4">
-         <input type="text" placeholder="      Search..." class="p-2 bg-white  rounded-full placeholder-hidden md:placeholder-visible lg:placeholder-visible xl:placeholder-visibles mt-4 ml-3 focus:outline-none">
+        <div class="relative sm:placeholder-hidden lg:placeholder-visible justify-between gap-4">
+         <input type="text" placeholder="      Search..." class="p-2 bg-white  rounded-full placeholder-hidden lg:placeholder-visible  xl:placeholder-visibles mt-4 ml-3 focus:outline-none">
           <div class="absolute  inset-y-0 left-0 flex items-center pl-3">
             <svg class="w-5  ml-2 mt-1 h-5 mt-2 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-5.2-5.2"></path>
@@ -76,7 +77,7 @@
       </div>
   </section>
     <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-          <div class="mx-auto border border-gray-300 ml-2	 mr-2 p-0 "><img src=" IMG-20240221-WA0034.jpg"class="">
+          <div class="mx-auto border border-gray-300 ml-2	h-full mr-2 p-0 "><img src=" IMG-20240221-WA0034.jpg"class="">
             <p class="text-black font-bold mb-2 ml-2 mr-2 text-center"
             >Zurich:renovation <br>works at check-in 1</p>
             <p class="text-slate-600 text-justify  ml-2 mr-2	">Baggage check for Economy and Premium Economy class temporarily relocated to check-in 3</p> 
@@ -85,7 +86,7 @@
           </div>
          
           
-          <div class="mx-auto border border-gray-300 p-0 ml-2 mr-2 "><img src="IMG-20240221-WA0035.jpg"class=" IMG-20240221-WA0035.jpg ">
+          <div class="mx-auto border border-gray-300 p-0 h-full ml-2 mr-2 "><img src="IMG-20240221-WA0035.jpg"class=" IMG-20240221-WA0035.jpg ">
             <P  class="text-black font-bold ml-3 mr-3 mb-2 text-center	">Stay connected</P>
             <p class="text-slate-600 ml-3  mr-3	text-justify">Buy a SWISS eSiM date bundle and save on roaming charges on your next trip</p>
             <br>
@@ -95,7 +96,7 @@
 
           </div>
           
-          <div class="mx-auto border border-gray-300  lg:block ml-2 mr-2 p-0"><img src="IMG-20240221-WA0036.jpg"class="">
+          <div class="mx-auto border border-gray-300 h-full lg:block ml-2 mr-2 p-0"><img src="IMG-20240221-WA0036.jpg"class="">
             <P  class="text-black font-bold ml-3 mr-3 mb-2 text-center">Online check-in</P>
             <p class="text-slate-600	ml-3 mr-3  text-justify">Check in for your next flight conveniently at home or the office.</p> 
             <br>
@@ -105,7 +106,7 @@
 
           </div>
          
-          <div class="mx-auto border border-gray-300 ml-2 mb-2  mr-2 p-0 "><img src="IMG-20240221-WA0037.jpg"class="">
+          <div class="mx-auto border border-gray-300 ml-2 mb-2 h-full  mr-2 p-0 "><img src="IMG-20240221-WA0037.jpg"class="">
             <P  class="text-black font-bold ml-3 mr-3 mb-2 text-center">Entry regulations <br>worldwide</p>
             <p class="text-slate-600	 ml-3 mr-3 text-justify	">Enquire about the entry regulations for your destination in good time</p>
             <br>
@@ -125,9 +126,9 @@
       </div>
       <section class="mt-5 ">
         <section class=" bg-neutral-100 ">
-        <div class="max-w-md mx-auto bg-neutral-100    p-8 rounded grid-cols-1 md:grid-cols-2 ">
+        <div class="max-w-md mx-auto bg-neutral-100 grid-rows-4   p-4 md:p-8 rounded grid-cols-1 lg:grid-cols-2 ">
           <h2 class="text-2xl font-semibold text-center mb-6">Elegant contact form</h2>
-          <form class="grid  grid-rows-4 grid-cols-1 md:grid-cols-2 sm:grid-cols-1 gap-4 md:grid-rows-3 grid-flow-col">
+          <form class="grid grid-rows-4  lg: grid-rows-3 grid-cols-1 lg:grid-cols-2 gap-4  grid-flow-col">
             <div class="mb-1">
               <input type="text" id="name" name="name" placeholder=" Name..." class="w-full  shadow-md p-2 border  border-gray-300 rounded focus:outline-none ">
             </div>
@@ -145,7 +146,7 @@
             </div>
 
           </form>
-          <button type="submit" class="bg-indigo-500 mx-auto text-white w-96 mt-3 px-4 rounded  hover:bg-red-600 shadow-md bg-red-600	 focus:outline-none focus:shadow-outline-indigo">Submit</button>
+          <button type="submit" class="bg-indigo-500 mx-auto text-white w-full mt-3 px-4 rounded  hover:bg-red-600 shadow-md bg-red-600	 focus:outline-none focus:shadow-outline-indigo">Submit</button>
 
         </div>
       </section>
@@ -251,11 +252,11 @@
               </a>
        
             </div>
-            <hr class="border-1 border-gray-100 ">
+            <hr class="border-1 border-gray-300  ">
             <br>
-            <hr class="lg:w-1/6 border-4 border-gray-100 ml-1">
+            <hr class="sm:w-1/6 border-1 border-gray-100 ml-1 ">
             
-            <a href="#English(United States)" class="text-left block font-sans hidden md:hidden lg:block   py-5 text-xl">English(United States)</a>
+            <a href="#English(United States)" class="text-left block font-sans  lg:block   py-5 text-xl">English(United States)</a>
 
           </footer>
         </div>
